@@ -1,0 +1,9 @@
+.text
+
+START:
+    MOV.B R5, R6  ;Bu bir yorum satırıdır.
+    ADD.W R7, R8  
+    CALL #10
+    JMP END
+    JNZ START
+END:
